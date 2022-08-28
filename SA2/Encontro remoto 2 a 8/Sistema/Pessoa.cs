@@ -10,12 +10,11 @@ namespace Sistema
         // Atributos
         public string nome {get; set;}
 
-        public string endereco { get; set; }
-        
-        public bool enderecoComercial { get; set; }
-        
+        public Endereco endereco {get; set;}
+             
         // Métodos
-        public void pagarimposto() {}
+        public abstract void PagarImposto(float rendimento);
 
     }
+    
 }

@@ -12,5 +12,11 @@ namespace Sistema
         
         public string razaoSocial { get; set; }
         
+        // Métodos
+        public override void PagarImposto(float lucro) {
+ 
+        } 
+
     }
+    
 }
