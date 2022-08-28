@@ -7,12 +7,14 @@ namespace Sistema
 {
     public abstract class Pessoa // abstract?
     {
+        // Atributos
         public string nome {get; set;}
 
         public string endereco { get; set; }
         
         public bool enderecoComercial { get; set; }
         
+        // Métodos
         public void pagarimposto() {}
 
     }

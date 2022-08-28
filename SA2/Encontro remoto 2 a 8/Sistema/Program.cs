@@ -14,6 +14,7 @@ namespace Sistema {
   public class Program {
     static void Main (string[] args) {
 
+      Console.BackgroundColor = ConsoleColor.Green;
       Console.WriteLine("hello");
 
     }

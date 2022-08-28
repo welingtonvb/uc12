@@ -7,6 +7,7 @@ namespace Sistema
 {
     public class PessoaJuridica : Pessoa
     {
+        // Atributos
         public string CNPJ { get; set; }
         
         public string razaoSocial { get; set; }
