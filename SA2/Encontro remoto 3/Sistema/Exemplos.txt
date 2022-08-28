@@ -1,8 +1,0 @@
-// Console.Beep();
-// Console.WriteLine("********************");
-// Console.WriteLine("*      MENU        *");
-// Console.WriteLine("********************");
-// Console.WriteLine("Qualquer coisa...");
-// Console.WriteLine("Hello, World!");
-
-// Console.ReadLine();
