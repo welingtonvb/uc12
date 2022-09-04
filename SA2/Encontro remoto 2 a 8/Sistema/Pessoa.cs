@@ -13,8 +13,25 @@ namespace Sistema
         public Endereco endereco {get; set;}
              
         // Métodos
-        public abstract void PagarImposto(float rendimento);
+        public abstract float PagarImposto(float rendimento);
 
     }
+
+    /*
+
+    Criar método de pagar imposto PF e PJ que calcule a porcentagem de desconto conforme o rendimento.
+    PF:
+    Até R$1.500,00 - isento - desconto 0
+    Entre R$1.501,00 e R$5.000,00 - desconto de 3%
+    Acima de 5.000,01 - desconto de 5%
+
+    PJ:
+    Até R$5.000,00 - isento - desconto de 6%
+    Entre R$5.000,01 e R$10.000,00 - desconto de 8%
+    Acima de 10.000,01 - desconto de 10%
+
+    OBS: O método deve retornar o valor do desconto e não monstrar direto na tela.
+
+    */
     
 }

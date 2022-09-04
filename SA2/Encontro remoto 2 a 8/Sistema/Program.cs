@@ -1,72 +1,9 @@
-﻿// Console.Beep();
-// Console.WriteLine("Hello, World!");
-// Console.WriteLine("Alguma coisa sem caracter especial");
-
-// Console.WriteLine("************************");
-// Console.WriteLine("*                      *");
-// Console.WriteLine("*         MENU         *");
-// Console.WriteLine("*                      *");
-// Console.WriteLine("************************");
-
-// Console.ReadLine();
-
-namespace Sistema {
+﻿namespace Sistema {
   public class Program {
     static void Main (string[] args) {
 
-      // Endereco end = new Endereco();
-      // end.logradouro = "Rua X";
-      // end.numero = 1;
-      // end.complemento = "Beco sem saída";
-      // end.enderecoComercial = false;
-   
-      // PessoaFisica pf = new PessoaFisica();
-      // pf.endereco = end;
-      // pf.nome = "Fulano de Tal";
-      // pf.CPF = "123456789-00";
-      // pf.dataNascimento =  new DateTime(1899,1,1);
-
-      // // interpolação
-      // Console.WriteLine($"O {pf.nome} mora na {pf.endereco.logradouro} Número {pf.endereco.numero}");
-
-      // // concatenação
-      // Console.WriteLine("O " + pf.nome + " mora na " + pf.endereco.logradouro + " Número " + pf.endereco.numero);
-
-      // //forma não-inteligente
-      // Console.WriteLine(pf.nome);
-      // Console.WriteLine(pf.endereco.logradouro);
-      // Console.WriteLine(pf.endereco.numero);
-      // Console.WriteLine(pf.endereco.complemento);
-      // Console.WriteLine(pf.endereco.enderecoComercial);
-
-      // // chamada de método
-      // bool idadeValida = pf.ValidarDataNascimento(pf.dataNascimento); 
-
-      // if (idadeValida) {
-      //   Console.WriteLine("Cadastro aprovado!");
-      // } else {
-      //   Console.WriteLine("Cadastro reprovado!");
-      // }
-
-      // PessoaJuridica pj = new PessoaJuridica();
-
-      // Endereco endJ = new Endereco();
-      // endJ.logradouro = "Rua X";
-      // endJ.numero = 1;
-      // endJ.complemento = "Beco sem saída";
-      // endJ.enderecoComercial = false;
-
-      // pj.endereco = endJ;
-      // pj.CNPJ = "12345678900021";
-      // pj.razaoSocial = "Organizações Tabajara";
-      
-      // bool cnpjValido = pj.ValidarCNPJ(pj.CNPJ);
-      
-      // if (cnpjValido) {
-      //   Console.WriteLine("CNPJ valido!");
-      // } else {
-      //   Console.WriteLine("CNPJ invalido!");
-      // }
+      // Lista
+      List<PessoaFisica> listaPf = new List<PessoaFisica>();
 
       // Método carregamento
       static void BarraCarregamento(string texto){
@@ -101,8 +38,15 @@ namespace Sistema {
           =======================================           
           |       Escolha uma opção :           |
           |                                     |
-          |         1 - Pessoa fisica           |
-          |         2 - Pessoa Juridica         |
+          |          Pessoa fisica              |
+          |          1 - Cadastrar              |
+          |          2 - Listar                 |
+          |          3 - Remover                |
+          |                                     |
+          |          Pessoa Juridica            |
+          |          4 - Cadastrar              |
+          |          5 - Listar                 |
+          |          6 - Remover                |          
           |                                     |
           |         0 - sair                    |
           =======================================
@@ -112,42 +56,77 @@ namespace Sistema {
 
           switch (opcao) {
             case "1":
+
+              // Cadastrar PF
               Endereco endPf = new Endereco();
-              endPf.logradouro = "Rua A";
-              endPf.numero = 1;
-              endPf.complemento = "Praça central";
-              endPf.enderecoComercial = false;
+              Console.WriteLine("Digite seu logradouro:");
+              endPf.logradouro = Console.ReadLine();
+              Console.WriteLine("Digite o número de sua residência:");
+              endPf.numero = int.Parse(Console.ReadLine());
+              Console.WriteLine(@$"Digite o complemento caso possua. Precione ENTER para pular:");
+              endPf.complemento = Console.ReadLine();
+              Console.WriteLine("Este endereço é comercial? (S - SIM / N - NÃO)");
+              string endComercial = Console.ReadLine().ToUpper();
+
+              if(endComercial == "S") {
+                endPf.enderecoComercial = true;
+              } else if (endComercial == "N") {
+                endPf.enderecoComercial = false;
+              }
 
               PessoaFisica pf = new PessoaFisica();
-              pf.nome = "Fulano de Tal";
-              pf.CPF = "123456789-00";
-              pf.dataNascimento = new DateTime(1900, 12, 12);
               pf.endereco = endPf;
 
-              Console.WriteLine($"Nome: {pf.nome} CPF: {pf.CPF}");
+              Console.WriteLine("Digite seu CPF (Somente números):");
+              pf.CPF = Console.ReadLine();
+              Console.WriteLine("Digite seu nome:");
+              pf.nome = Console.ReadLine();
+              Console.WriteLine("Digite seu salário:");
+              pf.salario = float.Parse(Console.ReadLine());
+              Console.WriteLine("Digite sua data de aniversário [ANO, MES, DIA]:");
+              pf.dataNascimento = DateTime.Parse(Console.ReadLine());
+
+              bool idadeValida = pf.ValidarDataNascimento(pf.dataNascimento);
+
+              if(idadeValida == true) {
+                Console.WriteLine("Cadastro aprovado!");
+                listaPf.Add(pf);
+                Console.WriteLine(pf.PagarImposto(pf.salario));
+              } else {
+                Console.WriteLine("Cadastro reprovado!");
+              }
             break;
             case "2":
-           Endereco endPj = new Endereco();
-              endPj.logradouro = "Rua B";
-              endPj.numero = 10;
-              endPj.complemento = "Setor industrial";
-              endPj.enderecoComercial = true;
+              // Listar PF
+              foreach (var cadaItem in listaPf) {
+                Console.WriteLine($"{cadaItem.nome}, {cadaItem.salario}");
+              }
+            break;
+            case "3": 
+              // Remover PF
+              Console.WriteLine("Digite o CPF para ser removido (somente números): ");
+              String cpfProcurado = Console.ReadLine();
+              PessoaFisica pessoaEncontrada = listaPf.Find(cadaItem => cadaItem.CPF == cpfProcurado);
 
-              PessoaJuridica pj = new PessoaJuridica();
-              pj.razaoSocial = "Organizações Tabajara";
-              pj.CNPJ = "01234567890001";
-              pj.endereco = endPj;
+              if (pessoaEncontrada != null ) {
+                listaPf.Remove(pessoaEncontrada);
+                Console.WriteLine("Removido com sucesso!");
+              } else {
+                Console.WriteLine("CPF não encontrado!");
+              }
 
-              Console.WriteLine($"Razão Social: {pj.razaoSocial} CNPJ: {pj.CNPJ}");              
+            break;
+            case "4": 
+              // Cadastrar PJ
+            break;
+            case "5": 
+              // Listar PJ
+            break;
+            case "6": 
+              // Remover PJ            
             break;
             case "0":
               Console.WriteLine("Obrigado por utilizar nosso sistema");
-              // Console.ForegroundColor = ConsoleColor.DarkRed;
-              // Console.Write("Finalizando ");
-              // for (var contador = 0; contador < 10; contador++) {
-              //    Console.Write("#");
-              //    Thread.Sleep(500);
-              // }  
               BarraCarregamento("Finalizando "); 
             break; 
             default:
