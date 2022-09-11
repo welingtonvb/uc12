@@ -95,12 +95,20 @@
               } else {
                 Console.WriteLine("Cadastro reprovado!");
               }
+
+              Console.WriteLine($"Aperte 'ENTER' para continuar...");
+              Console.ReadLine();
+              
             break;
             case "2":
               // Listar PF
               foreach (var cadaItem in listaPf) {
                 Console.WriteLine($"{cadaItem.nome}, {cadaItem.salario}");
               }
+
+              Console.WriteLine($"Aperte 'ENTER' para continuar...");
+              Console.ReadLine();
+
             break;
             case "3": 
               // Remover PF
@@ -114,6 +122,9 @@
               } else {
                 Console.WriteLine("CPF não encontrado!");
               }
+
+              Console.WriteLine($"Aperte 'ENTER' para continuar...");
+              Console.ReadLine();
 
             break;
             case "4": 

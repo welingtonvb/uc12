@@ -13,3 +13,18 @@ D:\SenaiFS\UC12\SA2\Encontro remoto 2 a 8\Sistema\obj\Debug\net6.0\refint\Sistem
 D:\SenaiFS\UC12\SA2\Encontro remoto 2 a 8\Sistema\obj\Debug\net6.0\Sistema.pdb
 D:\SenaiFS\UC12\SA2\Encontro remoto 2 a 8\Sistema\obj\Debug\net6.0\Sistema.genruntimeconfig.cache
 D:\SenaiFS\UC12\SA2\Encontro remoto 2 a 8\Sistema\obj\Debug\net6.0\ref\Sistema.dll
+D:\SenaiFS\UC12\SA2\Encontros Remotos\Encontro remoto 7\Sistema\bin\Debug\net6.0\Sistema.exe
+D:\SenaiFS\UC12\SA2\Encontros Remotos\Encontro remoto 7\Sistema\bin\Debug\net6.0\Sistema.deps.json
+D:\SenaiFS\UC12\SA2\Encontros Remotos\Encontro remoto 7\Sistema\bin\Debug\net6.0\Sistema.runtimeconfig.json
+D:\SenaiFS\UC12\SA2\Encontros Remotos\Encontro remoto 7\Sistema\bin\Debug\net6.0\Sistema.dll
+D:\SenaiFS\UC12\SA2\Encontros Remotos\Encontro remoto 7\Sistema\bin\Debug\net6.0\Sistema.pdb
+D:\SenaiFS\UC12\SA2\Encontros Remotos\Encontro remoto 7\Sistema\obj\Debug\net6.0\Sistema.csproj.AssemblyReference.cache
+D:\SenaiFS\UC12\SA2\Encontros Remotos\Encontro remoto 7\Sistema\obj\Debug\net6.0\Sistema.GeneratedMSBuildEditorConfig.editorconfig
+D:\SenaiFS\UC12\SA2\Encontros Remotos\Encontro remoto 7\Sistema\obj\Debug\net6.0\Sistema.AssemblyInfoInputs.cache
+D:\SenaiFS\UC12\SA2\Encontros Remotos\Encontro remoto 7\Sistema\obj\Debug\net6.0\Sistema.AssemblyInfo.cs
+D:\SenaiFS\UC12\SA2\Encontros Remotos\Encontro remoto 7\Sistema\obj\Debug\net6.0\Sistema.csproj.CoreCompileInputs.cache
+D:\SenaiFS\UC12\SA2\Encontros Remotos\Encontro remoto 7\Sistema\obj\Debug\net6.0\Sistema.dll
+D:\SenaiFS\UC12\SA2\Encontros Remotos\Encontro remoto 7\Sistema\obj\Debug\net6.0\refint\Sistema.dll
+D:\SenaiFS\UC12\SA2\Encontros Remotos\Encontro remoto 7\Sistema\obj\Debug\net6.0\Sistema.pdb
+D:\SenaiFS\UC12\SA2\Encontros Remotos\Encontro remoto 7\Sistema\obj\Debug\net6.0\Sistema.genruntimeconfig.cache
+D:\SenaiFS\UC12\SA2\Encontros Remotos\Encontro remoto 7\Sistema\obj\Debug\net6.0\ref\Sistema.dll
