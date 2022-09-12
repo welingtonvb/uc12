@@ -12,7 +12,7 @@ namespace Sistema
 
       public DateTime dataNascimento { get; set; }
 
-      public float salario { get; set; }        
+      public float salario { get; set; }
 
       // Métodos
       public override float PagarImposto(float salario) {
