@@ -160,6 +160,7 @@
 
             break;
             case "4": 
+              Console.Clear();
               // Cadastrar PJ
 
               novoEndPj.logradouro = "Rua XXX";
@@ -170,7 +171,7 @@
               novaPj.endereco = novoEndPj;
 
               novaPj.nome = "Loja das Primas Filial 01";
-              novaPj.CNPJ = "00.000.000/000/01";
+              novaPj.CNPJ = "00.000.000.000/01";
               novaPj.razaoSocial = "Loja das Primas S.A";
 
               metodoPj.Inserir(novaPj);
@@ -179,14 +180,15 @@
             case "5": 
               // Listar PJ
 
+            Console.Clear();
               List<PessoaJuridica> listaPj = metodoPj.Ler();
 
               foreach (PessoaJuridica cadaItem in listaPj) {
                 Console.Clear();
                 Console.WriteLine(@$"
-                Nome: {novaPj.nome}
-                CNPJ: {novaPj.CNPJ}
-                Razao: {novaPj.razaoSocial}
+                Nome: {cadaItem.nome}
+                CNPJ: {cadaItem.CNPJ}
+                Razao: {cadaItem.razaoSocial}
                 ");
               }  
 
