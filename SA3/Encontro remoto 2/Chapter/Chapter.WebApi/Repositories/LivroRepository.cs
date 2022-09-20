@@ -16,6 +16,8 @@ namespace Chapter.WebApi.Repositories
                 new Livro() { Id = 2, Disponivel = false, QuantidadePaginas = 220, Titulo = "Do mil ao milhão" },
                 new Livro() { Id = 3, Disponivel = true, QuantidadePaginas = 220, Titulo = "Breves respostas para grandes questões" },
                 new Livro() { Id = 4, Disponivel = false, QuantidadePaginas = 220, Titulo = "Do mil ao milhão" },
+                new Livro() { Id = 5, Disponivel = false, QuantidadePaginas = 120, Titulo = "Novo livro 1" },
+                new Livro() { Id = 6, Disponivel = false, QuantidadePaginas = 130, Titulo = "Novo livro 2" },
             };
             return livros;
         }
