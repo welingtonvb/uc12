@@ -5,6 +5,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>Chapter.WebApi</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>D:\SenaiFS\UC12\SA3\Encontro remoto 2\Chapter\Chapter.WebApi\Properties\PublishProfiles\welingtonvbapichapter - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>D:\SenaiFS\UC12\SA3\Encontro remoto 2\Chapter\Chapter.WebApi\Properties\PublishProfiles\FolderProfile.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
