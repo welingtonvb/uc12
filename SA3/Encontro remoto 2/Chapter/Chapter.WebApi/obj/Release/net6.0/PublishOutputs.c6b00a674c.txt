@@ -1,0 +1,12 @@
+D:\SenaiFS\UC12\SA3\Encontro remoto 2\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Chapter.WebApi.exe
+D:\SenaiFS\UC12\SA3\Encontro remoto 2\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\web.config
+D:\SenaiFS\UC12\SA3\Encontro remoto 2\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\SenaiFS\UC12\SA3\Encontro remoto 2\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\SenaiFS\UC12\SA3\Encontro remoto 2\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Chapter.WebApi.dll
+D:\SenaiFS\UC12\SA3\Encontro remoto 2\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Chapter.WebApi.deps.json
+D:\SenaiFS\UC12\SA3\Encontro remoto 2\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Chapter.WebApi.runtimeconfig.json
+D:\SenaiFS\UC12\SA3\Encontro remoto 2\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Chapter.WebApi.pdb
+D:\SenaiFS\UC12\SA3\Encontro remoto 2\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\SenaiFS\UC12\SA3\Encontro remoto 2\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\SenaiFS\UC12\SA3\Encontro remoto 2\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\SenaiFS\UC12\SA3\Encontro remoto 2\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
