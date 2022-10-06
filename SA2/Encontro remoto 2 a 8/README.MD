@@ -6,7 +6,7 @@ README para atividade online 3.
 
 ## Features (funcionalidades)
 
-Codificar sistemas web server-side (Back-End), utilizando a programação orientada a objetos. A Herança é um mecanismo que permite que características comuns a diversas classes sejam fatoradas em uma classe base, ou superclasse (Pai e filhas).
+Codificar um sistema web server-side de cadastro de clientes (Back-End), utilizando a programação orientada a objetos. A Herança é um mecanismo que permite que características comuns a diversas classes sejam fatoradas em uma classe base, ou superclasse (Pai e filhas).
 
 ## Tecnologias utilizadas
 
@@ -14,6 +14,16 @@ Codificar sistemas web server-side (Back-End), utilizando a programação orient
 * Microsoft .NET Framework 6.0. Um framework é um conjunto de códigos genéricos capaz de unir trechos de um projeto de desenvolvimento. 
 
 ## Organização do projeto
+
+Está baseado na orientação a objetos da seguinte forma:
+
+* Classe Pessoa (super classe / classe pai) :
+	* Atributos : nome, endereço;
+	* Métodos : pagar imposto;
+* Classe Pessoa Física (Subclasse / Classe filha) :
+	* Atributos : CPF e data de nascimento;
+* Classe Pessoa Jurídica (Subclasse /  Classe filha) :
+	* Atributos : CNPJ e razão social;
 
 ## Pré-requisitos de instalação
 
