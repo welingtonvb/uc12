@@ -1,12 +1,17 @@
 # Sistema de Cadastro de Clientes - SCC v6.9
 
-## Título
+## UC12 - SA2 - Atividade Online 3
 
-	Descrição
+README para atividade online 3.
 
 ## Features (funcionalidades)
 
+Codificar sistemas web server-side (Back-End), utilizando a programação orientada a objetos. A Herança é um mecanismo que permite que características comuns a diversas classes sejam fatoradas em uma classe base, ou superclasse (Pai e filhas).
+
 ## Tecnologias utilizadas
+
+* Linguagem de programação orientada a objetos C#;
+* Microsoft .NET Framework 6.0. Um framework é um conjunto de códigos genéricos capaz de unir trechos de um projeto de desenvolvimento. 
 
 ## Organização do projeto
 
