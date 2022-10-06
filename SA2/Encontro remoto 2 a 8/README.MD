@@ -33,6 +33,9 @@
 
 ## Erros comuns
 
+* Não instalar as extensões necessárias;
+* Instalar o .NET diferente da versão 6.0 recomendada (inferior ou superior). Podem ocorrer erros de execução.  
+
 ## Contribuidores
 
 Elaborado por welingtonvb
