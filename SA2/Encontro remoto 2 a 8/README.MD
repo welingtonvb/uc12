@@ -38,7 +38,7 @@ Está baseado na orientação a objetos da seguinte forma:
 	* C# XML Documentation Comments;
 	* C# Extensions.
 
-* .NET 6.0
+* Microsoft .NET Framework 6.0.
 
 ## Execução da aplicação
 
