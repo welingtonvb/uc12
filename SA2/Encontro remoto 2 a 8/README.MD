@@ -14,16 +14,16 @@
 
 É necessário para :
 
-*Microsoft Visual Studio Code
+* Microsoft Visual Studio Code
 
-*Extensões do C#:
+* Extensões do C#:
 
-1.C# Snippets;
-2.C#;
-3.C# XML Documentation Comments;
-4.C# Extensions.
+1. C# Snippets;
+2. C#;
+3. C# XML Documentation Comments;
+4. C# Extensions.
 
-*.NET 6.0
+* .NET 6.0
 
 ## Execução da aplicação
 
