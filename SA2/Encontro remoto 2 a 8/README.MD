@@ -12,20 +12,24 @@
 
 ## Pré-requisitos de instalação
 
-É necessário para :
+É necessário :
 
-* Microsoft Visual Studio Code
+* Microsoft Visual Studio Code (VSCODE)
 
 * Extensões do C#:
 
-	1. C# Snippets;
-	2. C#;
-	3. C# XML Documentation Comments;
-	4. C# Extensions.
+	* C# Snippets;
+	* C#;
+	* C# XML Documentation Comments;
+	* C# Extensions.
 
 * .NET 6.0
 
 ## Execução da aplicação
+
+* Baixar o pacote zip e descompactar;
+* Caminho do arquivo na pasta: uc12-main\uc12-main\SA2\Encontro remoto 2 a 8\Sistema\Sistema.csproj;
+* Executar por meio do comando "donet run" no console do vscode.
 
 ## Erros comuns
 
