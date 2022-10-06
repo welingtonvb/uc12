@@ -1,17 +1,19 @@
-sistema de cadastro de clientes
+# Sistema de Cadastro de Clientes - SCC v6.9
 
-- Título e descrição
+## Título
 
-- Features (funcionalidades)
+	Descrição
 
-- Tecnologias utilizadas
+## Features (funcionalidades)
 
-- Organização do projeto
+## Tecnologias utilizadas
 
-- Pré-requisitos de instalação
+## Organização do projeto
 
-- Execução da aplicação
+## Pré-requisitos de instalação
 
-- Erros comuns
+## Execução da aplicação
 
-- Contribuidores
+## Erros comuns
+
+## Contribuidores
