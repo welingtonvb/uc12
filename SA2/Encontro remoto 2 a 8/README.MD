@@ -28,7 +28,7 @@
 ## Execução da aplicação
 
 * Baixar o pacote zip e descompactar;
-* Caminho do arquivo na pasta: uc12-main\uc12-main\SA2\Encontro remoto 2 a 8\Sistema\Sistema.csproj;
+* Caminho do arquivo na pasta: uc12-main\uc12-main\SA2\Encontro remoto 2 a 8\Sistema\ . Abrir o VSCODE nesta pasta;
 * Executar por meio do comando "donet run" no console do vscode.
 
 ## Erros comuns
